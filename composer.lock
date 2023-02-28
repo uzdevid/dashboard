@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6dddbfe64fd462fd3dbea591a3ca0d59",
+    "content-hash": "827ffb9cd757e05ae31042a0b52970c5",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -211,22 +211,21 @@
         },
         {
             "name": "dashboard/header",
-            "version": "dev-main",
+            "version": "0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uzdevid/dashboard-header.git",
-                "reference": "694fb3bb46600a87f4996d792bc26c5df59d3549"
+                "reference": "a389274f5e4d174650d7bfc40c499d86c9202272"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-header/zipball/694fb3bb46600a87f4996d792bc26c5df59d3549",
-                "reference": "694fb3bb46600a87f4996d792bc26c5df59d3549",
+                "url": "https://api.github.com/repos/uzdevid/dashboard-header/zipball/a389274f5e4d174650d7bfc40c499d86c9202272",
+                "reference": "a389274f5e4d174650d7bfc40c499d86c9202272",
                 "shasum": ""
             },
             "require": {
                 "yiisoft/yii2": "~2.0.0"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
@@ -250,13 +249,13 @@
             ],
             "support": {
                 "issues": "https://github.com/uzdevid/dashboard-header/issues",
-                "source": "https://github.com/uzdevid/dashboard-header/tree/main"
+                "source": "https://github.com/uzdevid/dashboard-header/tree/0.0.0"
             },
-            "time": "2023-02-27T07:26:58+00:00"
+            "time": "2023-02-28T15:45:48+00:00"
         },
         {
             "name": "dashboard/modal-page",
-            "version": "dev-main",
+            "version": "0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uzdevid/dashboard-modal-page.git",
@@ -271,7 +270,6 @@
             "require": {
                 "yiisoft/yii2": "~2.0.0"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
@@ -296,13 +294,13 @@
             ],
             "support": {
                 "issues": "https://github.com/uzdevid/dashboard-modal-page/issues",
-                "source": "https://github.com/uzdevid/dashboard-modal-page/tree/main"
+                "source": "https://github.com/uzdevid/dashboard-modal-page/tree/0.0.0"
             },
             "time": "2023-02-27T09:22:47+00:00"
         },
         {
             "name": "dashboard/offcanvas-page",
-            "version": "dev-main",
+            "version": "0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uzdevid/dashboard-offcanvas-page.git",
@@ -317,7 +315,6 @@
             "require": {
                 "yiisoft/yii2": "~2.0.0"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
@@ -342,13 +339,13 @@
             ],
             "support": {
                 "issues": "https://github.com/uzdevid/dashboard-offcanvas-page/issues",
-                "source": "https://github.com/uzdevid/dashboard-offcanvas-page/tree/main"
+                "source": "https://github.com/uzdevid/dashboard-offcanvas-page/tree/0.0.0"
             },
             "time": "2023-02-27T09:23:25+00:00"
         },
         {
             "name": "dashboard/sidebar",
-            "version": "dev-main",
+            "version": "0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uzdevid/dashboard-sidebar.git",
@@ -363,7 +360,6 @@
             "require": {
                 "yiisoft/yii2": "~2.0.0"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
@@ -387,13 +383,13 @@
             ],
             "support": {
                 "issues": "https://github.com/uzdevid/dashboard-sidebar/issues",
-                "source": "https://github.com/uzdevid/dashboard-sidebar/tree/main"
+                "source": "https://github.com/uzdevid/dashboard-sidebar/tree/0.0.0"
             },
             "time": "2023-02-27T07:43:19+00:00"
         },
         {
             "name": "dashboard/toaster",
-            "version": "dev-main",
+            "version": "0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uzdevid/dashboard-toaster.git",
@@ -408,7 +404,6 @@
             "require": {
                 "yiisoft/yii2": "~2.0.0"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
@@ -433,7 +428,7 @@
             ],
             "support": {
                 "issues": "https://github.com/uzdevid/dashboard-toaster/issues",
-                "source": "https://github.com/uzdevid/dashboard-toaster/tree/main"
+                "source": "https://github.com/uzdevid/dashboard-toaster/tree/0.0.0"
             },
             "time": "2023-02-27T09:27:43+00:00"
         },
@@ -1882,12 +1877,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "aac98028c69df04ee77eb69b96b86ee51fbf4b75"
+                "reference": "aee5f59db63978f7785290b94d2f12286b1b590a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/aac98028c69df04ee77eb69b96b86ee51fbf4b75",
-                "reference": "aac98028c69df04ee77eb69b96b86ee51fbf4b75",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/aee5f59db63978f7785290b94d2f12286b1b590a",
+                "reference": "aee5f59db63978f7785290b94d2f12286b1b590a",
                 "shasum": ""
             },
             "require": {
@@ -1944,7 +1939,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v3.2.0"
+                "source": "https://github.com/symfony/service-contracts/tree/main"
             },
             "funding": [
                 {
@@ -1960,7 +1955,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-25T10:21:52+00:00"
+            "time": "2023-02-16T12:50:33+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2695,13 +2690,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "dashboard/header": 20,
-        "dashboard/sidebar": 20,
-        "dashboard/modal-page": 20,
-        "dashboard/offcanvas-page": 20,
-        "dashboard/toaster": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
