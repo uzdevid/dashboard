@@ -1,2 +1,4 @@
 *
 !.gitignore
+!AppAsset.php
+!SimpleAsset.php
