@@ -1,0 +1,5 @@
+profile/photo/*
+!profile/photo/default.png
+
+sounds/*
+!sounds/notification.mp3
