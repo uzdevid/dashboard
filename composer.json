@@ -23,11 +23,7 @@
     "ext-json": "*",
     "vlucas/phpdotenv": "^5.5",
     "yiisoft/yii2-symfonymailer": "^3.0",
-    "dashboard/toaster": "^0.0.0",
-    "dashboard/sidebar": "^0.0.0",
-    "dashboard/modal-page": "^0.0.0",
-    "dashboard/offcanvas-page": "^0.0.0",
-    "dashboard/header": "^0.0.0"
+    "uzdevid/yii2-dashboard": "^1.0.0"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "~2.1.0",
@@ -37,6 +33,9 @@
     "process-timeout": 1800,
     "fxp-asset": {
       "enabled": false
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
     }
   },
   "scripts": {

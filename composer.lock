@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "827ffb9cd757e05ae31042a0b52970c5",
+    "content-hash": "572391caffffda306260785e01c8c2e9",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
-            "version": "v5.3.0-alpha1",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:twbs/bootstrap.git",
-                "reference": "cf9454caa00872899215603e5e036d9a824b1b11"
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "cb021439c683d9805e2864c58095b92d405e9b11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/cf9454caa00872899215603e5e036d9a824b1b11",
-                "reference": "cf9454caa00872899215603e5e036d9a824b1b11"
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/cb021439c683d9805e2864c58095b92d405e9b11",
+                "reference": "cb021439c683d9805e2864c58095b92d405e9b11"
             },
             "type": "bower-asset"
         },
@@ -26,7 +26,7 @@
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:RobinHerbots/Inputmask.git",
+                "url": "https://github.com/RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -44,16 +44,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "3.6.3",
+            "version": "3.6.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:jquery/jquery-dist.git",
-                "reference": "da0f228131a578aea168b799fe4d7fe01764c98b"
+                "reference": "91ef2d8836342875f2519b5815197ea0f23613cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/da0f228131a578aea168b799fe4d7fe01764c98b",
-                "reference": "da0f228131a578aea168b799fe4d7fe01764c98b"
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/91ef2d8836342875f2519b5815197ea0f23613cf",
+                "reference": "91ef2d8836342875f2519b5815197ea0f23613cf"
             },
             "type": "bower-asset",
             "license": [
@@ -98,16 +98,16 @@
         },
         {
             "name": "cebe/markdown",
-            "version": "dev-master",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "2b2461bed9e15305486319ee552bafca75d1cdaa"
+                "reference": "9bac5e971dd391e2802dca5400bbeacbaea9eb86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/2b2461bed9e15305486319ee552bafca75d1cdaa",
-                "reference": "2b2461bed9e15305486319ee552bafca75d1cdaa",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/9bac5e971dd391e2802dca5400bbeacbaea9eb86",
+                "reference": "9bac5e971dd391e2802dca5400bbeacbaea9eb86",
                 "shasum": ""
             },
             "require": {
@@ -119,7 +119,6 @@
                 "facebook/xhprof": "*@dev",
                 "phpunit/phpunit": "4.1.*"
             },
-            "default-branch": true,
             "bin": [
                 "bin/markdown"
             ],
@@ -159,7 +158,7 @@
                 "issues": "https://github.com/cebe/markdown/issues",
                 "source": "https://github.com/cebe/markdown"
             },
-            "time": "2020-02-26T01:55:18+00:00"
+            "time": "2018-03-26T11:24:36+00:00"
         },
         {
             "name": "codemix/yii2-localeurls",
@@ -210,231 +209,8 @@
             "time": "2022-05-04T06:51:52+00:00"
         },
         {
-            "name": "dashboard/header",
-            "version": "0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-header.git",
-                "reference": "a389274f5e4d174650d7bfc40c499d86c9202272"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-header/zipball/a389274f5e4d174650d7bfc40c499d86c9202272",
-                "reference": "a389274f5e4d174650d7bfc40c499d86c9202272",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "dashboard\\header\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "Dashboard Header",
-            "keywords": [
-                "dashboard",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-header/issues",
-                "source": "https://github.com/uzdevid/dashboard-header/tree/0.0.0"
-            },
-            "time": "2023-02-28T15:45:48+00:00"
-        },
-        {
-            "name": "dashboard/modal-page",
-            "version": "0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-modal-page.git",
-                "reference": "5d0988734a8b7495014977fd448745f79bd902ab"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-modal-page/zipball/5d0988734a8b7495014977fd448745f79bd902ab",
-                "reference": "5d0988734a8b7495014977fd448745f79bd902ab",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "dashboard\\modalpage\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "Dashboard Modal Page",
-            "keywords": [
-                "dashboard",
-                "modal page",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-modal-page/issues",
-                "source": "https://github.com/uzdevid/dashboard-modal-page/tree/0.0.0"
-            },
-            "time": "2023-02-27T09:22:47+00:00"
-        },
-        {
-            "name": "dashboard/offcanvas-page",
-            "version": "0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-offcanvas-page.git",
-                "reference": "884dc844f1e29fe598489b15ac59a1dbdbd5ddfa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-offcanvas-page/zipball/884dc844f1e29fe598489b15ac59a1dbdbd5ddfa",
-                "reference": "884dc844f1e29fe598489b15ac59a1dbdbd5ddfa",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "dashboard\\offcanvaspage\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "offcanvas",
-            "keywords": [
-                "dashboard",
-                "offcanvas page",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-offcanvas-page/issues",
-                "source": "https://github.com/uzdevid/dashboard-offcanvas-page/tree/0.0.0"
-            },
-            "time": "2023-02-27T09:23:25+00:00"
-        },
-        {
-            "name": "dashboard/sidebar",
-            "version": "0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-sidebar.git",
-                "reference": "fa6f4321415b92bcf627f5fc55ff113188779b6e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-sidebar/zipball/fa6f4321415b92bcf627f5fc55ff113188779b6e",
-                "reference": "fa6f4321415b92bcf627f5fc55ff113188779b6e",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "dashboard\\sidebar\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "Dashboard Side Bar",
-            "keywords": [
-                "dashboard",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-sidebar/issues",
-                "source": "https://github.com/uzdevid/dashboard-sidebar/tree/0.0.0"
-            },
-            "time": "2023-02-27T07:43:19+00:00"
-        },
-        {
-            "name": "dashboard/toaster",
-            "version": "0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-toaster.git",
-                "reference": "45459340ce61fcf7af5b6a15c703f69491d7c4be"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-toaster/zipball/45459340ce61fcf7af5b6a15c703f69491d7c4be",
-                "reference": "45459340ce61fcf7af5b6a15c703f69491d7c4be",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "dashboard\\toaster\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "Dashboard Toaster",
-            "keywords": [
-                "dashboard",
-                "toaster",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-toaster/issues",
-                "source": "https://github.com/uzdevid/dashboard-toaster/tree/0.0.0"
-            },
-            "time": "2023-02-27T09:27:43+00:00"
-        },
-        {
             "name": "doctrine/lexer",
-            "version": "3.0.x-dev",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/lexer.git",
@@ -491,7 +267,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/lexer/issues",
-                "source": "https://github.com/doctrine/lexer/tree/3.0.x"
+                "source": "https://github.com/doctrine/lexer/tree/3.0.0"
             },
             "funding": [
                 {
@@ -511,7 +287,7 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "4.x-dev",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
@@ -535,7 +311,6 @@
             "suggest": {
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -640,16 +415,16 @@
         },
         {
             "name": "graham-campbell/result-type",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "60c5f57bee20beb1a4a3cc5fe9170de4a64521d2"
+                "reference": "672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/60c5f57bee20beb1a4a3cc5fe9170de4a64521d2",
-                "reference": "60c5f57bee20beb1a4a3cc5fe9170de4a64521d2",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831",
+                "reference": "672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831",
                 "shasum": ""
             },
             "require": {
@@ -659,7 +434,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^8.5.32 || ^9.6.3 || ^10.0.12"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -687,7 +461,7 @@
             ],
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
-                "source": "https://github.com/GrahamCampbell/Result-Type/tree/1.1"
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.1"
             },
             "funding": [
                 {
@@ -699,38 +473,33 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-25T23:46:23+00:00"
+            "time": "2023-02-25T20:23:15+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "dev-master",
+            "version": "v9.99.100",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "64f3265002e9e181436942aac2fbd482e186dc55"
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/64f3265002e9e181436942aac2fbd482e186dc55",
-                "reference": "64f3265002e9e181436942aac2fbd482e186dc55",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.0"
+                "php": ">= 7"
             },
             "require-dev": {
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
             },
             "suggest": {
                 "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
             },
-            "default-branch": true,
             "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/random.php"
-                ]
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -754,11 +523,11 @@
                 "issues": "https://github.com/paragonie/random_compat/issues",
                 "source": "https://github.com/paragonie/random_compat"
             },
-            "time": "2022-06-19T18:08:39+00:00"
+            "time": "2020-10-15T08:29:30+00:00"
         },
         {
             "name": "phpoption/phpoption",
-            "version": "dev-master",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
@@ -777,7 +546,6 @@
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "phpunit/phpunit": "^8.5.32 || ^9.6.3 || ^10.0.12"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "bamarni-bin": {
@@ -834,29 +602,25 @@
         },
         {
             "name": "psr/cache",
-            "version": "dev-master",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/cache.git",
-                "reference": "0a7c67d0d1c8167b342eb74339d6f961663826ce"
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/cache/zipball/0a7c67d0d1c8167b342eb74339d6f961663826ce",
-                "reference": "0a7c67d0d1c8167b342eb74339d6f961663826ce",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0.0"
             },
-            "suggest": {
-                "fig/cache-util": "Provides some useful PSR-6 utilities"
-            },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -881,28 +645,27 @@
                 "psr-6"
             ],
             "support": {
-                "source": "https://github.com/php-fig/cache/tree/master"
+                "source": "https://github.com/php-fig/cache/tree/3.0.0"
             },
-            "time": "2021-02-24T03:25:37+00:00"
+            "time": "2021-02-03T23:26:27+00:00"
         },
         {
             "name": "psr/container",
-            "version": "dev-master",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "90db7b9ac2a2c5b849fcb69dde58f3ae182c68f5"
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/90db7b9ac2a2c5b849fcb69dde58f3ae182c68f5",
-                "reference": "90db7b9ac2a2c5b849fcb69dde58f3ae182c68f5",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -935,31 +698,27 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/master"
+                "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
-            "time": "2022-07-19T17:36:59+00:00"
+            "time": "2021-11-05T16:47:00+00:00"
         },
         {
             "name": "psr/event-dispatcher",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/event-dispatcher.git",
-                "reference": "e275e2d67d53964a3f13e056886ecd769edee021"
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/e275e2d67d53964a3f13e056886ecd769edee021",
-                "reference": "e275e2d67d53964a3f13e056886ecd769edee021",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.0"
             },
-            "suggest": {
-                "fig/event-dispatcher-util": "Provides some useful PSR-14 utilities"
-            },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -978,7 +737,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Standard interfaces for event handling.",
@@ -988,13 +747,14 @@
                 "psr-14"
             ],
             "support": {
-                "source": "https://github.com/php-fig/event-dispatcher/tree/master"
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
             },
-            "time": "2022-06-29T17:22:39+00:00"
+            "time": "2019-01-08T18:20:26+00:00"
         },
         {
             "name": "psr/log",
-            "version": "dev-master",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
@@ -1009,7 +769,6 @@
             "require": {
                 "php": ">=8.0.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1045,25 +804,24 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "6.3.x-dev",
+            "version": "v6.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "c58ec8623b8cbb3739fbaab5bf972df3f68ef312"
+                "reference": "404b307de426c1c488e5afad64403e5f145e82a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/c58ec8623b8cbb3739fbaab5bf972df3f68ef312",
-                "reference": "c58ec8623b8cbb3739fbaab5bf972df3f68ef312",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/404b307de426c1c488e5afad64403e5f145e82a5",
+                "reference": "404b307de426c1c488e5afad64403e5f145e82a5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
-                "symfony/event-dispatcher-contracts": "^2.5|^3"
+                "symfony/event-dispatcher-contracts": "^2|^3"
             },
             "conflict": {
-                "symfony/dependency-injection": "<5.4",
-                "symfony/service-contracts": "<2.5"
+                "symfony/dependency-injection": "<5.4"
             },
             "provide": {
                 "psr/event-dispatcher-implementation": "1.0",
@@ -1076,7 +834,7 @@
                 "symfony/error-handler": "^5.4|^6.0",
                 "symfony/expression-language": "^5.4|^6.0",
                 "symfony/http-foundation": "^5.4|^6.0",
-                "symfony/service-contracts": "^2.5|^3",
+                "symfony/service-contracts": "^1.1|^2|^3",
                 "symfony/stopwatch": "^5.4|^6.0"
             },
             "suggest": {
@@ -1109,7 +867,7 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher/tree/6.3"
+                "source": "https://github.com/symfony/event-dispatcher/tree/v6.2.7"
             },
             "funding": [
                 {
@@ -1125,20 +883,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-16T09:01:12+00:00"
+            "time": "2023-02-14T08:44:56+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "dev-main",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "0782b0b52a737a05b4383d0df35a474303cabdae"
+                "reference": "0ad3b6f1e4e2da5690fefe075cd53a238646d8dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/0782b0b52a737a05b4383d0df35a474303cabdae",
-                "reference": "0782b0b52a737a05b4383d0df35a474303cabdae",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/0ad3b6f1e4e2da5690fefe075cd53a238646d8dd",
+                "reference": "0ad3b6f1e4e2da5690fefe075cd53a238646d8dd",
                 "shasum": ""
             },
             "require": {
@@ -1148,7 +906,6 @@
             "suggest": {
                 "symfony/event-dispatcher-implementation": ""
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1189,7 +946,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.2.0"
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -1205,20 +962,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-25T10:21:52+00:00"
+            "time": "2023-03-01T10:32:47+00:00"
         },
         {
             "name": "symfony/mailer",
-            "version": "6.3.x-dev",
+            "version": "v6.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mailer.git",
-                "reference": "1d21acf21be6a9538e6bb403007929dd749e51fa"
+                "reference": "e4f84c633b72ec70efc50b8016871c3bc43e691e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailer/zipball/1d21acf21be6a9538e6bb403007929dd749e51fa",
-                "reference": "1d21acf21be6a9538e6bb403007929dd749e51fa",
+                "url": "https://api.github.com/repos/symfony/mailer/zipball/e4f84c633b72ec70efc50b8016871c3bc43e691e",
+                "reference": "e4f84c633b72ec70efc50b8016871c3bc43e691e",
                 "shasum": ""
             },
             "require": {
@@ -1228,10 +985,9 @@
                 "psr/log": "^1|^2|^3",
                 "symfony/event-dispatcher": "^5.4|^6.0",
                 "symfony/mime": "^6.2",
-                "symfony/service-contracts": "^2.5|^3"
+                "symfony/service-contracts": "^1.1|^2|^3"
             },
             "conflict": {
-                "symfony/http-client-contracts": "<2.5",
                 "symfony/http-kernel": "<5.4",
                 "symfony/messenger": "<6.2",
                 "symfony/mime": "<6.2",
@@ -1269,7 +1025,7 @@
             "description": "Helps sending emails",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/mailer/tree/6.3"
+                "source": "https://github.com/symfony/mailer/tree/v6.2.7"
             },
             "funding": [
                 {
@@ -1285,20 +1041,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-23T09:41:37+00:00"
+            "time": "2023-02-21T10:35:38+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "6.3.x-dev",
+            "version": "v6.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "aaafbed52ef3678ba1c933e27753e7a286eac316"
+                "reference": "62e341f80699badb0ad70b31149c8df89a2d778e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/aaafbed52ef3678ba1c933e27753e7a286eac316",
-                "reference": "aaafbed52ef3678ba1c933e27753e7a286eac316",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/62e341f80699badb0ad70b31149c8df89a2d778e",
+                "reference": "62e341f80699badb0ad70b31149c8df89a2d778e",
                 "shasum": ""
             },
             "require": {
@@ -1352,7 +1108,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/6.3"
+                "source": "https://github.com/symfony/mime/tree/v6.2.7"
             },
             "funding": [
                 {
@@ -1368,20 +1124,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-24T10:44:40+00:00"
+            "time": "2023-02-24T10:42:00+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "dev-main",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb"
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb",
-                "reference": "ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/5bbc823adecdae860bb64756d639ecfec17b050a",
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a",
                 "shasum": ""
             },
             "require": {
@@ -1393,11 +1149,10 @@
             "suggest": {
                 "ext-ctype": "For best performance"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.28-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1435,7 +1190,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/main"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -1451,20 +1206,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-26T09:26:14+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "dev-main",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "ecaafce9f77234a6a449d29e49267ba10499116d"
+                "reference": "639084e360537a19f9ee352433b84ce831f3d2da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/ecaafce9f77234a6a449d29e49267ba10499116d",
-                "reference": "ecaafce9f77234a6a449d29e49267ba10499116d",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/639084e360537a19f9ee352433b84ce831f3d2da",
+                "reference": "639084e360537a19f9ee352433b84ce831f3d2da",
                 "shasum": ""
             },
             "require": {
@@ -1475,11 +1230,10 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.28-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1523,7 +1277,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/main"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -1539,20 +1293,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-26T09:30:37+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "dev-main",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92"
+                "reference": "19bd1e4fcd5b91116f14d8533c57831ed00571b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92",
-                "reference": "8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/19bd1e4fcd5b91116f14d8533c57831ed00571b6",
+                "reference": "19bd1e4fcd5b91116f14d8533c57831ed00571b6",
                 "shasum": ""
             },
             "require": {
@@ -1561,11 +1315,10 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.28-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1608,7 +1361,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/main"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -1624,20 +1377,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-26T09:26:14+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "dev-main",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f9c7affe77a00ae32ca127ca6833d034e6d33f25"
+                "reference": "8ad114f6b39e2c98a8b0e3bd907732c207c2b534"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f9c7affe77a00ae32ca127ca6833d034e6d33f25",
-                "reference": "f9c7affe77a00ae32ca127ca6833d034e6d33f25",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/8ad114f6b39e2c98a8b0e3bd907732c207c2b534",
+                "reference": "8ad114f6b39e2c98a8b0e3bd907732c207c2b534",
                 "shasum": ""
             },
             "require": {
@@ -1649,11 +1402,10 @@
             "suggest": {
                 "ext-mbstring": "For best performance"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.28-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1692,7 +1444,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/main"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -1708,30 +1460,29 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-30T17:25:47+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "dev-main",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "70f4aebd92afca2f865444d30a4d2151c13c3179"
+                "reference": "869329b1e9894268a8a61dabb69153029b7a8c97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/70f4aebd92afca2f865444d30a4d2151c13c3179",
-                "reference": "70f4aebd92afca2f865444d30a4d2151c13c3179",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/869329b1e9894268a8a61dabb69153029b7a8c97",
+                "reference": "869329b1e9894268a8a61dabb69153029b7a8c97",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.28-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1769,7 +1520,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/main"
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -1785,30 +1536,29 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-26T09:26:14+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "dev-main",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "6caa57379c4aec19c0a12a38b59b26487dcfe4b5"
+                "reference": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/6caa57379c4aec19c0a12a38b59b26487dcfe4b5",
-                "reference": "6caa57379c4aec19c0a12a38b59b26487dcfe4b5",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
+                "reference": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.28-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1853,7 +1603,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/main"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -1869,20 +1619,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-26T09:26:14+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/service-contracts",
-            "version": "dev-main",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "aee5f59db63978f7785290b94d2f12286b1b590a"
+                "reference": "a8c9cedf55f314f3a186041d19537303766df09a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/aee5f59db63978f7785290b94d2f12286b1b590a",
-                "reference": "aee5f59db63978f7785290b94d2f12286b1b590a",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/a8c9cedf55f314f3a186041d19537303766df09a",
+                "reference": "a8c9cedf55f314f3a186041d19537303766df09a",
                 "shasum": ""
             },
             "require": {
@@ -1895,7 +1645,6 @@
             "suggest": {
                 "symfony/service-implementation": ""
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1939,7 +1688,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/main"
+                "source": "https://github.com/symfony/service-contracts/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -1955,11 +1704,284 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-16T12:50:33+00:00"
+            "time": "2023-03-01T10:32:47+00:00"
+        },
+        {
+            "name": "uzdevid/dashboard-header",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/dashboard-header.git",
+                "reference": "a029c11fe7ecfdb10c1fadbf13d5d5bb7d916705"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/dashboard-header/zipball/a029c11fe7ecfdb10c1fadbf13d5d5bb7d916705",
+                "reference": "a029c11fe7ecfdb10c1fadbf13d5d5bb7d916705",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\header\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ibragimov Diyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "Dashboard's Header",
+            "keywords": [
+                "dashboard",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/dashboard-header/issues",
+                "source": "https://github.com/uzdevid/dashboard-header/tree/1.0.0"
+            },
+            "time": "2023-03-29T09:28:29+00:00"
+        },
+        {
+            "name": "uzdevid/dashboard-modal-page",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/dashboard-modal-page.git",
+                "reference": "d63e27266a4fb6443005631addf6265a4ac80608"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/dashboard-modal-page/zipball/d63e27266a4fb6443005631addf6265a4ac80608",
+                "reference": "d63e27266a4fb6443005631addf6265a4ac80608",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\modalpage\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ibragimov Diyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "Dashboard Modal Page",
+            "keywords": [
+                "dashboard",
+                "modal page",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/dashboard-modal-page/issues",
+                "source": "https://github.com/uzdevid/dashboard-modal-page/tree/1.0.1"
+            },
+            "time": "2023-03-29T10:51:43+00:00"
+        },
+        {
+            "name": "uzdevid/dashboard-offcanvas-page",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/dashboard-offcanvas-page.git",
+                "reference": "7563ae6bdc02e679a7471f298d84b0f04d619ff8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/dashboard-offcanvas-page/zipball/7563ae6bdc02e679a7471f298d84b0f04d619ff8",
+                "reference": "7563ae6bdc02e679a7471f298d84b0f04d619ff8",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\offcanvaspage\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ibragimov Diyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "offcanvas",
+            "keywords": [
+                "dashboard",
+                "offcanvas page",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/dashboard-offcanvas-page/issues",
+                "source": "https://github.com/uzdevid/dashboard-offcanvas-page/tree/1.0.1"
+            },
+            "time": "2023-03-29T10:52:10+00:00"
+        },
+        {
+            "name": "uzdevid/dashboard-sidebar",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/dashboard-sidebar.git",
+                "reference": "30fdbfb74cbee11987dbd62096fdd84a1b3193c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/dashboard-sidebar/zipball/30fdbfb74cbee11987dbd62096fdd84a1b3193c9",
+                "reference": "30fdbfb74cbee11987dbd62096fdd84a1b3193c9",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\sidebar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ibragimov Diyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "Dashboard Side Bar",
+            "keywords": [
+                "dashboard",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/dashboard-sidebar/issues",
+                "source": "https://github.com/uzdevid/dashboard-sidebar/tree/1.0.0"
+            },
+            "time": "2023-03-29T10:25:49+00:00"
+        },
+        {
+            "name": "uzdevid/dashboard-toaster",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/dashboard-toaster.git",
+                "reference": "66e2962db4e150fee8590efc045f81d9c74df123"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/dashboard-toaster/zipball/66e2962db4e150fee8590efc045f81d9c74df123",
+                "reference": "66e2962db4e150fee8590efc045f81d9c74df123",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\toaster\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ibragimov Diyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "Dashboard Toaster",
+            "keywords": [
+                "dashboard",
+                "toaster",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/dashboard-toaster/issues",
+                "source": "https://github.com/uzdevid/dashboard-toaster/tree/1.0.1"
+            },
+            "time": "2023-03-29T10:53:14+00:00"
+        },
+        {
+            "name": "uzdevid/yii2-dashboard",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/yii2-dashboard.git",
+                "reference": "00a58ee146704bedf382ddfb2b3bde6c85c779a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/yii2-dashboard/zipball/00a58ee146704bedf382ddfb2b3bde6c85c779a0",
+                "reference": "00a58ee146704bedf382ddfb2b3bde6c85c779a0",
+                "shasum": ""
+            },
+            "require": {
+                "uzdevid/dashboard-header": "^1.0.0",
+                "uzdevid/dashboard-modal-page": "^1.0.0",
+                "uzdevid/dashboard-offcanvas-page": "^1.0.0",
+                "uzdevid/dashboard-sidebar": "^1.0.0",
+                "uzdevid/dashboard-toaster": "^1.0.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "default-branch": true,
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "IbragimovDiyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "Dashboard panel",
+            "keywords": [
+                "module",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/yii2-dashboard/issues",
+                "source": "https://github.com/uzdevid/yii2-dashboard/tree/main"
+            },
+            "time": "2023-03-29T10:28:23+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "dev-master",
+            "version": "v5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
@@ -1988,7 +2010,6 @@
             "suggest": {
                 "ext-filter": "Required to use the boolean validator."
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "bamarni-bin": {
@@ -2108,16 +2129,16 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "dev-master",
+            "version": "2.0.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "344ce388c65a3ce8866abdf033212c9323713317"
+                "reference": "8ecf57895d9c4b29cf9658ffe57af5f3d0e25254"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/344ce388c65a3ce8866abdf033212c9323713317",
-                "reference": "344ce388c65a3ce8866abdf033212c9323713317",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8ecf57895d9c4b29cf9658ffe57af5f3d0e25254",
+                "reference": "8ecf57895d9c4b29cf9658ffe57af5f3d0e25254",
                 "shasum": ""
             },
             "require": {
@@ -2134,7 +2155,6 @@
                 "php": ">=5.4.0",
                 "yiisoft/yii2-composer": "~2.0.4"
             },
-            "default-branch": true,
             "bin": [
                 "yii"
             ],
@@ -2227,20 +2247,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-27T11:48:22+00:00"
+            "time": "2022-11-18T16:21:58+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap5",
-            "version": "dev-master",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap5.git",
-                "reference": "5d0e4911aa3cb19902af50559b99f35fbb8953bb"
+                "reference": "0ce35f80ca07763fa2c6f38d1c0a1aaf65c76d2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap5/zipball/5d0e4911aa3cb19902af50559b99f35fbb8953bb",
-                "reference": "5d0e4911aa3cb19902af50559b99f35fbb8953bb",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap5/zipball/0ce35f80ca07763fa2c6f38d1c0a1aaf65c76d2e",
+                "reference": "0ce35f80ca07763fa2c6f38d1c0a1aaf65c76d2e",
                 "shasum": ""
             },
             "require": {
@@ -2257,7 +2277,6 @@
             "suggest": {
                 "twbs/bootstrap-icons": "Add this package to the `require` section of your `composer.json` if you'd like to use the bootstrap icon asset."
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
@@ -2309,20 +2328,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-03T09:33:06+00:00"
+            "time": "2022-11-30T08:25:21+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
-            "version": "dev-master",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "0933fd949a036348283322024948541324cce66a"
+                "reference": "94bb3f66e779e2774f8776d6e1bdeab402940510"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/0933fd949a036348283322024948541324cce66a",
-                "reference": "0933fd949a036348283322024948541324cce66a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/94bb3f66e779e2774f8776d6e1bdeab402940510",
+                "reference": "94bb3f66e779e2774f8776d6e1bdeab402940510",
                 "shasum": ""
             },
             "require": {
@@ -2332,7 +2351,6 @@
                 "composer/composer": "^1.0 | ^2.0@dev",
                 "phpunit/phpunit": "<7"
             },
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "yii\\composer\\Plugin",
@@ -2386,20 +2404,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-20T07:23:20+00:00"
+            "time": "2020-06-24T00:04:01+00:00"
         },
         {
             "name": "yiisoft/yii2-symfonymailer",
-            "version": "dev-master",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-symfonymailer.git",
-                "reference": "130dada2ed3086c41f9b790ffc8df2d632498f27"
+                "reference": "291c00979a9bf14e89bb5230ddd700a6dc130e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-symfonymailer/zipball/130dada2ed3086c41f9b790ffc8df2d632498f27",
-                "reference": "130dada2ed3086c41f9b790ffc8df2d632498f27",
+                "url": "https://api.github.com/repos/yiisoft/yii2-symfonymailer/zipball/291c00979a9bf14e89bb5230ddd700a6dc130e51",
+                "reference": "291c00979a9bf14e89bb5230ddd700a6dc130e51",
                 "shasum": ""
             },
             "require": {
@@ -2414,14 +2432,10 @@
                 "symplify/easy-coding-standard": "^10.1",
                 "vimeo/psalm": "^4.22"
             },
-            "suggest": {
-                "yiisoft/yii2-psr-log-source": "Allows routing transport logs to your Yii2 logger"
-            },
-            "default-branch": true,
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -2469,7 +2483,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-20T15:19:30+00:00"
+            "time": "2022-12-05T08:20:13+00:00"
         }
     ],
     "packages-dev": [
@@ -2689,8 +2703,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "uzdevid/yii2-dashboard": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
@@ -2698,5 +2714,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -1,8 +1,8 @@
 <?php
 
-use app\models\system\User;
-use app\modules\system\Module as SystemModule;
-use app\modules\system\modules\api\Module as SystemAPIModule;
+use uzdevid\dashboard\models\User;
+use uzdevid\dashboard\Module as SystemModule;
+use uzdevid\dashboard\modules\api\Module as SystemAPIModule;
 use codemix\localeurls\UrlManager;
 
 $config = [
@@ -16,6 +16,7 @@ $config = [
         '@npm' => '@vendor/npm-asset',
         '@uploadsDir' => '@app/web'
     ],
+    'layoutPath' => '@vendor/uzdevid/yii2-dashboard/views/layouts',
     'modules' => [
         'system' => [
             'class' => SystemModule::class,
@@ -57,7 +58,7 @@ $config = [
         'user' => [
             'identityClass' => User::class,
             'enableAutoLogin' => true,
-            'loginUrl' => ['/login'],
+            'loginUrl' => ['/system/login'],
         ],
         'formatter' => [
             'dateFormat' => 'dd.MM.Y',
