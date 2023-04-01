@@ -33,6 +33,7 @@ CREATE TABLE `action` (
 --
 
 INSERT INTO `action` (`id`, `path`) VALUES
+(39, 'system/action/create'),
 (36, 'system/action/create'),
 (35, 'system/action/index'),
 (38, 'system/action/update'),
