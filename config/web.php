@@ -4,12 +4,16 @@ use uzdevid\dashboard\models\User;
 use uzdevid\dashboard\Module as SystemModule;
 use uzdevid\dashboard\modules\api\Module as SystemAPIModule;
 use codemix\localeurls\UrlManager;
+use uzdevid\dashboard\components\UserActivityBootstrap;
 
 $config = [
     'id' => 'dashboard',
     'name' => 'Dashboard',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => [
+        'log',
+        UserActivityBootstrap::class
+    ],
     'timeZone' => 'Asia/Tashkent',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
