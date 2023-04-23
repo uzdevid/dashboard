@@ -9,20 +9,7 @@ $config = [
         '@bower' => '@vendor/bower-asset',
         '@npm' => '@vendor/npm-asset',
     ],
-    'components' => [
-        'db' => require __DIR__ . '/database/system.php',
-        'cache' => [
-            'class' => 'yii\caching\FileCache',
-        ],
-        'log' => [
-            'targets' => [
-                [
-                    'class' => 'yii\log\FileTarget',
-                    'levels' => ['error', 'warning'],
-                ],
-            ],
-        ],
-    ],
+    'components' => require __DIR__ . '/components/console.php',
     'params' => require __DIR__ . '/params/console.php',
 ];
 

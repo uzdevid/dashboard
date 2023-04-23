@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "572391caffffda306260785e01c8c2e9",
+    "content-hash": "09591de8bb2e0d749e7c7c10735bb023",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -26,7 +26,7 @@
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/RobinHerbots/Inputmask.git",
+                "url": "git@github.com:RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -47,7 +47,7 @@
             "version": "3.6.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "91ef2d8836342875f2519b5815197ea0f23613cf"
             },
             "dist": {
@@ -65,12 +65,12 @@
             "version": "v1.3.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:bestiejs/punycode.js.git",
+                "url": "https://github.com/mathiasbynens/punycode.js.git",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
+                "url": "https://api.github.com/repos/mathiasbynens/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "type": "bower-asset"
@@ -414,6 +414,52 @@
             "time": "2022-09-18T07:06:19+00:00"
         },
         {
+            "name": "geshi/geshi",
+            "version": "v1.0.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GeSHi/geshi-1.0.git",
+                "reference": "fd22ab78481bf90337862b590e6f7517863926b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GeSHi/geshi-1.0/zipball/fd22ab78481bf90337862b590e6f7517863926b8",
+                "reference": "fd22ab78481bf90337862b590e6f7517863926b8",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/geshi/",
+                    "src/geshi.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Benny Baumann",
+                    "email": "BenBE@geshi.org",
+                    "homepage": "http://blog.benny-baumann.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generic Syntax Highlighter",
+            "homepage": "http://qbnz.com/highlighter/",
+            "support": {
+                "forum": "https://lists.sourceforge.net/lists/listinfo/geshi-users",
+                "irc": "irc://irc.freenode.org/geshi",
+                "issues": "https://sourceforge.net/p/geshi/feature-requests/",
+                "source": "https://github.com/GeSHi/geshi-1.0/tree/v1.0.9.1"
+            },
+            "time": "2019-10-20T20:54:46+00:00"
+        },
+        {
             "name": "graham-campbell/result-type",
             "version": "v1.1.1",
             "source": {
@@ -476,6 +522,162 @@
             "time": "2023-02-25T20:23:15+00:00"
         },
         {
+            "name": "mistralys/application-utils",
+            "version": "2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mistralys/application-utils.git",
+                "reference": "dd1f9a70bee852bf82a434dcfb77262c4ad79248"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mistralys/application-utils/zipball/dd1f9a70bee852bf82a434dcfb77262c4ad79248",
+                "reference": "dd1f9a70bee852bf82a434dcfb77262c4ad79248",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-gd": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-simplexml": "*",
+                "ext-zip": "*",
+                "geshi/geshi": ">=1.0",
+                "neitanod/forceutf8": ">=2.0.4",
+                "parsecsv/php-parsecsv": ">=1.2",
+                "php": ">=7.4",
+                "symfony/polyfill-php80": ">=v1.27"
+            },
+            "require-dev": {
+                "phpstan/phpstan": ">=1.10",
+                "phpunit/phpunit": ">=9.6"
+            },
+            "suggest": {
+                "mistralys/application-localization": "Required to translate available texts, from date related methods or file size labels for example."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php",
+                    "src/ImageHelper/ImageFunctions.php"
+                ],
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Mordziol",
+                    "email": "s.mordziol@mistralys.eu",
+                    "role": "Lead"
+                }
+            ],
+            "description": "Drop-in utilities for PHP applications.",
+            "support": {
+                "issues": "https://github.com/Mistralys/application-utils/issues",
+                "source": "https://github.com/Mistralys/application-utils/tree/2.3.2"
+            },
+            "time": "2023-03-24T13:19:15+00:00"
+        },
+        {
+            "name": "mistralys/text-diff",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mistralys/text-diff.git",
+                "reference": "d92c42a2e05729098fbb07085e68be00f6fa8fe5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mistralys/text-diff/zipball/d92c42a2e05729098fbb07085e68be00f6fa8fe5",
+                "reference": "d92c42a2e05729098fbb07085e68be00f6fa8fe5",
+                "shasum": ""
+            },
+            "require": {
+                "mistralys/application-utils": ">=1.2.5",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpstan/phpstan": ">=1.9",
+                "phpunit/phpunit": ">=9.6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kate Morley",
+                    "homepage": "https://iamkate.com",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Sebastian Mordziol",
+                    "email": "s.mordziol@mistralys.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Class used to compare strings using a DIFF implementation.",
+            "support": {
+                "issues": "https://github.com/Mistralys/text-diff/issues",
+                "source": "https://github.com/Mistralys/text-diff/tree/2.0.1"
+            },
+            "time": "2023-02-09T06:41:01+00:00"
+        },
+        {
+            "name": "neitanod/forceutf8",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neitanod/forceutf8.git",
+                "reference": "c1fbe70bfb5ad41b8ec5785056b0e308b40d4831"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neitanod/forceutf8/zipball/c1fbe70bfb5ad41b8ec5785056b0e308b40d4831",
+                "reference": "c1fbe70bfb5ad41b8ec5785056b0e308b40d4831",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ForceUTF8\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastián Grignoli",
+                    "email": "grignoli@gmail.com"
+                }
+            ],
+            "description": "PHP Class Encoding featuring popular Encoding::toUTF8() function --formerly known as forceUTF8()-- that fixes mixed encoded strings.",
+            "homepage": "https://github.com/neitanod/forceutf8",
+            "support": {
+                "issues": "https://github.com/neitanod/forceutf8/issues",
+                "source": "https://github.com/neitanod/forceutf8/tree/master"
+            },
+            "time": "2019-12-10T14:09:14+00:00"
+        },
+        {
             "name": "paragonie/random_compat",
             "version": "v9.99.100",
             "source": {
@@ -524,6 +726,70 @@
                 "source": "https://github.com/paragonie/random_compat"
             },
             "time": "2020-10-15T08:29:30+00:00"
+        },
+        {
+            "name": "parsecsv/php-parsecsv",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/parsecsv/parsecsv-for-php.git",
+                "reference": "2d6236cae09133e0533d34ed45ba1e1ecafffebb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/parsecsv/parsecsv-for-php/zipball/2d6236cae09133e0533d34ed45ba1e1ecafffebb",
+                "reference": "2d6236cae09133e0533d34ed45ba1e1ecafffebb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "suggest": {
+                "illuminate/support": "Fluent array interface for map functions"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ParseCsv\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Myhrberg",
+                    "email": "contact@jimeh.me"
+                },
+                {
+                    "name": "William Knauss",
+                    "email": "will.knauss@gmail.com"
+                },
+                {
+                    "name": "Susann Sgorzaly",
+                    "homepage": "https://github.com/susgo"
+                },
+                {
+                    "name": "Christian Bläul",
+                    "homepage": "https://github.com/Fonata"
+                }
+            ],
+            "description": "CSV data parser for PHP",
+            "support": {
+                "issues": "https://github.com/parsecsv/parsecsv-for-php/issues",
+                "source": "https://github.com/parsecsv/parsecsv-for-php"
+            },
+            "time": "2021-11-07T14:15:46+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -804,16 +1070,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v6.2.7",
+            "version": "v6.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "404b307de426c1c488e5afad64403e5f145e82a5"
+                "reference": "04046f35fd7d72f9646e721fc2ecb8f9c67d3339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/404b307de426c1c488e5afad64403e5f145e82a5",
-                "reference": "404b307de426c1c488e5afad64403e5f145e82a5",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/04046f35fd7d72f9646e721fc2ecb8f9c67d3339",
+                "reference": "04046f35fd7d72f9646e721fc2ecb8f9c67d3339",
                 "shasum": ""
             },
             "require": {
@@ -867,7 +1133,7 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher/tree/v6.2.7"
+                "source": "https://github.com/symfony/event-dispatcher/tree/v6.2.8"
             },
             "funding": [
                 {
@@ -883,7 +1149,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-14T08:44:56+00:00"
+            "time": "2023-03-20T16:06:02+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -966,16 +1232,16 @@
         },
         {
             "name": "symfony/mailer",
-            "version": "v6.2.7",
+            "version": "v6.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mailer.git",
-                "reference": "e4f84c633b72ec70efc50b8016871c3bc43e691e"
+                "reference": "bfcfa015c67e19c6fdb7ca6fe70700af1e740a17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailer/zipball/e4f84c633b72ec70efc50b8016871c3bc43e691e",
-                "reference": "e4f84c633b72ec70efc50b8016871c3bc43e691e",
+                "url": "https://api.github.com/repos/symfony/mailer/zipball/bfcfa015c67e19c6fdb7ca6fe70700af1e740a17",
+                "reference": "bfcfa015c67e19c6fdb7ca6fe70700af1e740a17",
                 "shasum": ""
             },
             "require": {
@@ -1025,7 +1291,7 @@
             "description": "Helps sending emails",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/mailer/tree/v6.2.7"
+                "source": "https://github.com/symfony/mailer/tree/v6.2.8"
             },
             "funding": [
                 {
@@ -1041,7 +1307,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-21T10:35:38+00:00"
+            "time": "2023-03-14T15:00:05+00:00"
         },
         {
             "name": "symfony/mime",
@@ -1707,251 +1973,24 @@
             "time": "2023-03-01T10:32:47+00:00"
         },
         {
-            "name": "uzdevid/dashboard-header",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-header.git",
-                "reference": "a029c11fe7ecfdb10c1fadbf13d5d5bb7d916705"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-header/zipball/a029c11fe7ecfdb10c1fadbf13d5d5bb7d916705",
-                "reference": "a029c11fe7ecfdb10c1fadbf13d5d5bb7d916705",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "uzdevid\\dashboard\\header\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "Dashboard's Header",
-            "keywords": [
-                "dashboard",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-header/issues",
-                "source": "https://github.com/uzdevid/dashboard-header/tree/1.0.0"
-            },
-            "time": "2023-03-29T09:28:29+00:00"
-        },
-        {
-            "name": "uzdevid/dashboard-modal-page",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-modal-page.git",
-                "reference": "d63e27266a4fb6443005631addf6265a4ac80608"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-modal-page/zipball/d63e27266a4fb6443005631addf6265a4ac80608",
-                "reference": "d63e27266a4fb6443005631addf6265a4ac80608",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "uzdevid\\dashboard\\modalpage\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "Dashboard Modal Page",
-            "keywords": [
-                "dashboard",
-                "modal page",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-modal-page/issues",
-                "source": "https://github.com/uzdevid/dashboard-modal-page/tree/1.0.1"
-            },
-            "time": "2023-03-29T10:51:43+00:00"
-        },
-        {
-            "name": "uzdevid/dashboard-offcanvas-page",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-offcanvas-page.git",
-                "reference": "7563ae6bdc02e679a7471f298d84b0f04d619ff8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-offcanvas-page/zipball/7563ae6bdc02e679a7471f298d84b0f04d619ff8",
-                "reference": "7563ae6bdc02e679a7471f298d84b0f04d619ff8",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "uzdevid\\dashboard\\offcanvaspage\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "offcanvas",
-            "keywords": [
-                "dashboard",
-                "offcanvas page",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-offcanvas-page/issues",
-                "source": "https://github.com/uzdevid/dashboard-offcanvas-page/tree/1.0.1"
-            },
-            "time": "2023-03-29T10:52:10+00:00"
-        },
-        {
-            "name": "uzdevid/dashboard-sidebar",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-sidebar.git",
-                "reference": "30fdbfb74cbee11987dbd62096fdd84a1b3193c9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-sidebar/zipball/30fdbfb74cbee11987dbd62096fdd84a1b3193c9",
-                "reference": "30fdbfb74cbee11987dbd62096fdd84a1b3193c9",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "uzdevid\\dashboard\\sidebar\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "Dashboard Side Bar",
-            "keywords": [
-                "dashboard",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-sidebar/issues",
-                "source": "https://github.com/uzdevid/dashboard-sidebar/tree/1.0.0"
-            },
-            "time": "2023-03-29T10:25:49+00:00"
-        },
-        {
-            "name": "uzdevid/dashboard-toaster",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/uzdevid/dashboard-toaster.git",
-                "reference": "66e2962db4e150fee8590efc045f81d9c74df123"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/dashboard-toaster/zipball/66e2962db4e150fee8590efc045f81d9c74df123",
-                "reference": "66e2962db4e150fee8590efc045f81d9c74df123",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "uzdevid\\dashboard\\toaster\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ibragimov Diyorbek",
-                    "email": "uzdevid@gmail.com"
-                }
-            ],
-            "description": "Dashboard Toaster",
-            "keywords": [
-                "dashboard",
-                "toaster",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/uzdevid/dashboard-toaster/issues",
-                "source": "https://github.com/uzdevid/dashboard-toaster/tree/1.0.1"
-            },
-            "time": "2023-03-29T10:53:14+00:00"
-        },
-        {
             "name": "uzdevid/yii2-dashboard",
-            "version": "dev-main",
+            "version": "1.2.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uzdevid/yii2-dashboard.git",
-                "reference": "00a58ee146704bedf382ddfb2b3bde6c85c779a0"
+                "reference": "ee9c9aa4a6ff1ca5035b890932a34e0e823662fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/yii2-dashboard/zipball/00a58ee146704bedf382ddfb2b3bde6c85c779a0",
-                "reference": "00a58ee146704bedf382ddfb2b3bde6c85c779a0",
+                "url": "https://api.github.com/repos/uzdevid/yii2-dashboard/zipball/ee9c9aa4a6ff1ca5035b890932a34e0e823662fc",
+                "reference": "ee9c9aa4a6ff1ca5035b890932a34e0e823662fc",
                 "shasum": ""
             },
             "require": {
-                "uzdevid/dashboard-header": "^1.0.0",
-                "uzdevid/dashboard-modal-page": "^1.0.0",
-                "uzdevid/dashboard-offcanvas-page": "^1.0.0",
-                "uzdevid/dashboard-sidebar": "^1.0.0",
-                "uzdevid/dashboard-toaster": "^1.0.0",
+                "mistralys/text-diff": "^2.0",
+                "uzdevid/yii2-dashboard-base": "^0.0.0",
                 "yiisoft/yii2": "~2.0.0"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
@@ -1975,9 +2014,53 @@
             ],
             "support": {
                 "issues": "https://github.com/uzdevid/yii2-dashboard/issues",
-                "source": "https://github.com/uzdevid/yii2-dashboard/tree/main"
+                "source": "https://github.com/uzdevid/yii2-dashboard/tree/1.2.25"
             },
-            "time": "2023-03-29T10:28:23+00:00"
+            "time": "2023-04-22T11:13:55+00:00"
+        },
+        {
+            "name": "uzdevid/yii2-dashboard-base",
+            "version": "0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/yii2-dashboard-base.git",
+                "reference": "4430a425e84ee512591424892cc85a7b2e997936"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/yii2-dashboard-base/zipball/4430a425e84ee512591424892cc85a7b2e997936",
+                "reference": "4430a425e84ee512591424892cc85a7b2e997936",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\base\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "IbragimovDiyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "Dashboard Base classes",
+            "keywords": [
+                "module",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/yii2-dashboard-base/issues",
+                "source": "https://github.com/uzdevid/yii2-dashboard-base/tree/0.0.0"
+            },
+            "time": "2023-04-20T08:06:59+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2704,9 +2787,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "uzdevid/yii2-dashboard": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
@@ -2714,5 +2795,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }

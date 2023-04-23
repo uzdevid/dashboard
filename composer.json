@@ -23,7 +23,7 @@
     "ext-json": "*",
     "vlucas/phpdotenv": "^5.5",
     "yiisoft/yii2-symfonymailer": "^3.0",
-    "uzdevid/yii2-dashboard": "~1.2.1"
+    "uzdevid/yii2-dashboard": "^1.2.1"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "~2.1.0",
