@@ -7,6 +7,7 @@ $config = [
     'bootstrap' => ['log'],
     'timeZone' => 'Asia/Tashkent',
     'aliases' => [
+        '@uzdevid' => '@vendor/uzdevid',
         '@bower' => '@vendor/bower-asset',
         '@npm' => '@vendor/npm-asset',
         '@uploadsDir' => '@app/web'

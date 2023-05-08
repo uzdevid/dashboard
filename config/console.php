@@ -4,10 +4,21 @@ $config = [
     'id' => 'dashboard-console',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'controllerNamespace' => 'app\commands',
     'aliases' => [
-        '@bower' => '@vendor/bower-asset',
-        '@npm' => '@vendor/npm-asset',
+        '@uzdevid' => '@vendor/uzdevid',
+        '@npm' => '@vendor/npm-asset'
+    ],
+    'controllerNamespace' => 'app\commands',
+    'controllerMap' => [
+        'migrate' => [
+            'class' => 'yii\console\controllers\MigrateController',
+            'migrationPath' => [
+                '@yii/i18n/migrations',
+                '@uzdevid/yii2-dashboard/migrations',
+                '@uzdevid/yii2-dashboard-access-control/migrations',
+                '@uzdevid/yii2-dashboard-modify-log/migrations',
+            ],
+        ],
     ],
     'components' => require __DIR__ . '/components/console.php',
     'params' => require __DIR__ . '/params/console.php',

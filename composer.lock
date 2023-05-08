@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09591de8bb2e0d749e7c7c10735bb023",
+    "content-hash": "a157d5f718da7b888f6b6ff2e26b875f",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -26,7 +26,7 @@
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:RobinHerbots/Inputmask.git",
+                "url": "https://github.com/RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -1311,16 +1311,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v6.2.7",
+            "version": "v6.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "62e341f80699badb0ad70b31149c8df89a2d778e"
+                "reference": "b6c137fc53a9f7c4c951cd3f362b3734c7a97723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/62e341f80699badb0ad70b31149c8df89a2d778e",
-                "reference": "62e341f80699badb0ad70b31149c8df89a2d778e",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/b6c137fc53a9f7c4c951cd3f362b3734c7a97723",
+                "reference": "b6c137fc53a9f7c4c951cd3f362b3734c7a97723",
                 "shasum": ""
             },
             "require": {
@@ -1374,7 +1374,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v6.2.7"
+                "source": "https://github.com/symfony/mime/tree/v6.2.10"
             },
             "funding": [
                 {
@@ -1390,7 +1390,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-24T10:42:00+00:00"
+            "time": "2023-04-19T09:54:16+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1974,20 +1974,19 @@
         },
         {
             "name": "uzdevid/yii2-dashboard",
-            "version": "1.2.25",
+            "version": "1.2.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uzdevid/yii2-dashboard.git",
-                "reference": "ee9c9aa4a6ff1ca5035b890932a34e0e823662fc"
+                "reference": "55687d64b56da20b178515b783062e3388d3cb41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uzdevid/yii2-dashboard/zipball/ee9c9aa4a6ff1ca5035b890932a34e0e823662fc",
-                "reference": "ee9c9aa4a6ff1ca5035b890932a34e0e823662fc",
+                "url": "https://api.github.com/repos/uzdevid/yii2-dashboard/zipball/55687d64b56da20b178515b783062e3388d3cb41",
+                "reference": "55687d64b56da20b178515b783062e3388d3cb41",
                 "shasum": ""
             },
             "require": {
-                "mistralys/text-diff": "^2.0",
                 "uzdevid/yii2-dashboard-base": "^0.0.0",
                 "yiisoft/yii2": "~2.0.0"
             },
@@ -2014,9 +2013,54 @@
             ],
             "support": {
                 "issues": "https://github.com/uzdevid/yii2-dashboard/issues",
-                "source": "https://github.com/uzdevid/yii2-dashboard/tree/1.2.25"
+                "source": "https://github.com/uzdevid/yii2-dashboard/tree/1.2.28"
             },
-            "time": "2023-04-22T11:13:55+00:00"
+            "time": "2023-05-02T18:59:22+00:00"
+        },
+        {
+            "name": "uzdevid/yii2-dashboard-access-control",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/yii2-dashboard-access-control.git",
+                "reference": "cab07658cb144037d56ae385c908acc61ab0ad2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/yii2-dashboard-access-control/zipball/cab07658cb144037d56ae385c908acc61ab0ad2a",
+                "reference": "cab07658cb144037d56ae385c908acc61ab0ad2a",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\access\\control\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "IbragimovDiyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "Dashboard Access Control",
+            "keywords": [
+                "access control",
+                "dashboard",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/yii2-dashboard-access-control/issues",
+                "source": "https://github.com/uzdevid/yii2-dashboard-access-control/tree/0.0.1"
+            },
+            "time": "2023-05-02T17:29:26+00:00"
         },
         {
             "name": "uzdevid/yii2-dashboard-base",
@@ -2061,6 +2105,52 @@
                 "source": "https://github.com/uzdevid/yii2-dashboard-base/tree/0.0.0"
             },
             "time": "2023-04-20T08:06:59+00:00"
+        },
+        {
+            "name": "uzdevid/yii2-dashboard-modify-log",
+            "version": "0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uzdevid/yii2-dashboard-modify-log.git",
+                "reference": "61088cf8a5819db95615435d3cbaa4d9cd10097c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uzdevid/yii2-dashboard-modify-log/zipball/61088cf8a5819db95615435d3cbaa4d9cd10097c",
+                "reference": "61088cf8a5819db95615435d3cbaa4d9cd10097c",
+                "shasum": ""
+            },
+            "require": {
+                "mistralys/text-diff": "^2.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "uzdevid\\dashboard\\modify\\log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "IbragimovDiyorbek",
+                    "email": "uzdevid@gmail.com"
+                }
+            ],
+            "description": "Dashboard Modify Log",
+            "keywords": [
+                "dashboard",
+                "modify log",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/uzdevid/yii2-dashboard-modify-log/issues",
+                "source": "https://github.com/uzdevid/yii2-dashboard-modify-log/tree/0.0.0"
+            },
+            "time": "2023-05-02T17:16:20+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2795,5 +2885,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

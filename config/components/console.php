@@ -23,8 +23,8 @@ return [
         'translations' => [
             '*' => [
                 'class' => 'yii\i18n\DbMessageSource',
-                'sourceMessageTable' => '{{%yii_source_message}}',
-                'messageTable' => '{{%yii_message}}',
+                'sourceMessageTable' => '{{%source_message}}',
+                'messageTable' => '{{%message}}',
                 'enableCaching' => false,
                 'cachingDuration' => 3600,
                 'forceTranslation' => true,
